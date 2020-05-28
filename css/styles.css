@@ -126,7 +126,7 @@ a {
   transition: linear 0.2s;
 }
 
-.header-btn:focus {
+.header-btn:hover {
   border: 2px solid #ffff;
 }
 
@@ -173,7 +173,7 @@ a {
   transition: linear 0.2s;
 }
 
-.hero-btn:focus {
+.hero-btn:hover {
   background-color: #ff4e50;
 }
 
@@ -271,7 +271,7 @@ a {
   transition: linear 0.2s;
 }
 
-.btn-other:focus {
+.btn-other:hover {
   color: #ffffff;
   background-color: #ff4e50;
 }
@@ -279,6 +279,10 @@ a {
 @media (min-width: 768px) {
   .container {
     width: 532px;
+  }
+
+  .header-btn:focus {
+    border: 2px solid #ffff;
   }
 
   .header-btn {
@@ -311,6 +315,10 @@ a {
     width: 225px;
   }
 
+  .hero-btn:focus {
+    background-color: #ff4e50;
+  }
+
   .partners {
     padding-bottom: 40px;
   }
@@ -331,6 +339,11 @@ a {
 
   .btn-other {
     width: 192px;
+  }
+
+  .btn-other:focus {
+    color: #ffffff;
+    background-color: #ff4e50;
   }
 }
 
